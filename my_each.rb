@@ -23,7 +23,6 @@ i = i + 1
   end
  # collection = []
 while i < array.length
-break
 yield (array[i])
 
 end
