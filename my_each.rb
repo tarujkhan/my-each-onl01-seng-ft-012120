@@ -13,15 +13,13 @@
 
 
 def my_each(collection)
-  block_given?
+ # block_given?
   i = 0 
-  my_each(collection) do |i|
-if i = i + 1 
-break
-    puts i
-  end
+  #my_each(collection) do |i|
+
 while i < array.length
-yield (array[i])
+yield (collection[i])
+i = i + 1 
 end
 array
 end
