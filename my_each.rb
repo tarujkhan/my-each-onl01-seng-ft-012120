@@ -18,11 +18,12 @@ def my_each(collection)
  # collection = []
   my_each(collection) do |i|
 i = i + 1 
-break
+
     puts i
   end
  # collection = []
 while i < array.length
+break
 yield (array[i])
 
 end
