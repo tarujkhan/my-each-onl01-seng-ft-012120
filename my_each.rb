@@ -17,6 +17,7 @@ def my_each(collection)
   i = 0 
   my_each(collection) do |i|
 i = i + 1 
+break
     puts i
   end
 while i < array.length
