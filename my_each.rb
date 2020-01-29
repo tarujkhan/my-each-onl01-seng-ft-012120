@@ -16,7 +16,7 @@ def my_each(collection)
   block_given?
   i = 0 
   my_each(collection) do |i|
-i = i + 1 
+if i = i + 1 
 break
     puts i
   end
